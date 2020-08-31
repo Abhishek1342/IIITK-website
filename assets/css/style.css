@@ -4,6 +4,36 @@ body {
   padding:0;
   font-family: 'Baloo Chettan 2', cursive;
 }
+.top-links{
+  position: relative;
+  top:0;
+  left:0;
+  width: 100%;
+  height:5vh;
+  background-color: #1768AC;
+  padding: 5px 5%;
+
+}
+
+.top-links a {
+  display: inline;
+  color: #FFFFFF;
+  padding-top:60%;
+  margin: auto 0.9%;
+  text-decoration: none;
+  display: none;
+
+}
+@media screen and (min-width: 770px) {
+    .top-links a {
+        display:inline;
+    }
+}
+
+
+.navigation-bar{
+
+}
 
 .footer {
   text-align: center;

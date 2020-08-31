@@ -1,4 +1,4 @@
 # IIITK-website
 Reconstruction of iiitk website
+From scratch
 
-I think it will take 1 month.

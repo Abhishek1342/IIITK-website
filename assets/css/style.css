@@ -1,9 +1,7 @@
 /* #03256C Dark-blue #2541B2 blue #1768AC green #06BEE1 light-green #FFFFFF white */
-
-
 body {
   margin: 0;
-  padding: 0;
+  padding:0;
   font-family: 'Baloo Chettan 2', cursive;
 }
 .top-links{
@@ -52,7 +50,9 @@ body {
   bottom: 0px;
   left: 0px;
   width: 100%;
+
   height: 44em;
+
   background-color: #2541B2;
   padding: 0;
 }
@@ -84,8 +84,10 @@ body {
 
 .colour{
   position: relative;
+
   width:100%;
   height: 36em;
+
   background-color: #06BEE1;
   border-radius:  0 0 0 100%/ 0 0 50% 100%;
 }

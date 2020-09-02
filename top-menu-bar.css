@@ -1,6 +1,6 @@
 .menubar {
-  width:75%;
-  margin-left:10%;
+  width:85%;
+  margin-left:7%;
   margin-top:10px;
   overflow: hidden;
   background-color: #1768AC;
@@ -8,7 +8,7 @@
 
 .menubar a {
   float: left;
-  font-size: 16px;
+  font-size: 90%;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -22,7 +22,7 @@
 
 .menubar-content a  {
   
-  font-size: 110;  
+  font-size: 90%;  
   border: none;
   outline: none;
   color: white;

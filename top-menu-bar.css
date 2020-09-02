@@ -1,6 +1,6 @@
 .menubar {
   width:80%;
-  
+  margin-left:10%
   margin-top:40px;
   overflow: hidden;
   background-color: #1768AC;
@@ -8,7 +8,7 @@
 
 .menubar a {
   float: left;
-  font-size: 16px;
+  font-size: 90%;
   color: #ffffff;
   text-align: center;
   padding: 14px 16px;

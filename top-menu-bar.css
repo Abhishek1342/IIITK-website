@@ -1,5 +1,5 @@
 .menubar {
-  width:85%;
+  width:90%;
   margin-left:7%;
   margin-top:10px;
   overflow: hidden;
@@ -11,7 +11,7 @@
   font-size: 90%;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 14px;
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@
 .menubar-sub-content {
   display: none;
   position: absolute;
-  top:97px;
+  top:87px;
   background-color: #1768AC;
   min-width: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);

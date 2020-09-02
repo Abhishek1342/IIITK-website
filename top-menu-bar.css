@@ -1,15 +1,15 @@
 .menubar {
-  width:80%;
-  margin-left:10%
-  margin-top:40px;
+  width:75%;
+  margin-left:10%;
+  margin-top:10px;
   overflow: hidden;
   background-color: #1768AC;
 }
 
 .menubar a {
   float: left;
-  font-size: 90%;
-  color: #ffffff;
+  font-size: 16px;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,14 +22,13 @@
 
 .menubar-content a  {
   
-  font-size: 17px;  
+  font-size: 110;  
   border: none;
   outline: none;
-  color: #ffffff;
+  color: white;
   padding: 12px 15px;
   border-right:1px solid #06bee1;
-  background-color: inherit;
-  font-family: inherit;
+
   margin: 0;
 }
 
@@ -40,7 +39,7 @@
 .menubar-sub-content {
   display: none;
   position: absolute;
-  top:52px;
+  top:97px;
   background-color: #1768AC;
   min-width: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -49,7 +48,7 @@
 
 .menubar-sub-content a {
   float: none;
-  color: #ffffff;
+  color: white;
   padding: 12px 16px;
   border-right:none;
   border-bottom:1px solid #06bee1;

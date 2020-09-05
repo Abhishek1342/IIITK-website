@@ -58,7 +58,7 @@ body {
 	display:inline-flex;
 	list-style:none;
 	color:white;
-	margin-left:-22px;
+	margin-left:-40px;
 }
 
 .menu-bar ul li {
@@ -97,7 +97,7 @@ body {
 
 .menu-bar ul li:hover .sub-menu1 ul li {
 	padding:10px;	
-	margin-left:-28px;
+	/*margin-left:-28px; */
 }
 
 

@@ -50,7 +50,7 @@ body {
 .menu-bar {
 	height:45px;
 	width:100%;
-	background:#1768AC;
+	background:#03256C;
 	text-align:center;
 }
 
@@ -62,21 +62,18 @@ body {
 }
 
 .menu-bar ul li {
-	border-right: 1px dotted #06BEE1;
 	padding:10px;
 }
 
-.menu-bar ul li:last-child {
-	border:none;
-}
+
 
 .menu-bar ul li a {
 	color:white;
 	text-decoration:none;
 }
 
-.menu-bar ul li:hover {
-	background-color:#06BEE1;
+.menu-bar ul li a:hover {
+	color:#06BEE1;
 	
 }
 
@@ -89,7 +86,7 @@ body {
 	position:absolute;
 	text-align:left;
 	min-width:8%;
-	background:#1768AC;
+	background:#03256C;
 	margin-top:10px;
 	margin-left:-10px;
 }
@@ -100,16 +97,13 @@ body {
 
 .menu-bar ul li:hover .sub-menu1 ul li {
 	padding:10px;	
-	border-bottom: 1px dotted #06BEE1;
 	margin-left:-40px;
 }
 
-.menu-bar ul li:hover .sub-menu1 ul li:last-child {
-	border:none;
-}
 
-.menu-bar ul li:hover .sub-menu1 ul li:hover {
-	background-color:#06BEE1;
+
+.menu-bar ul li:hover .sub-menu1 ul li a:hover {
+	color:#06BEE1;
 }
 
 .sub-menu1a {
@@ -119,10 +113,10 @@ body {
 .sub-menu1 li:hover .sub-menu1a {
 	position:absolute;
 	display:block;
-	background:#1768AC;
+	background:#03256C;
 	min-width:53%;
 	margin-top:-34px;
-	margin-left:97%;
+	margin-left:96%;
 }
 
 .fa-angle-down{
@@ -130,6 +124,7 @@ body {
 	top:1px;
 	margin-left:2px;
 }
+
 
 /*Menu bar Ending*/
 

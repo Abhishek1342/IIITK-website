@@ -48,6 +48,7 @@ body {
 /* Menubar css startig here*/
 
 .menu-bar {
+	height:45px;
 	width:100%;
 	background:#1768AC;
 	text-align:center;
@@ -99,6 +100,7 @@ body {
 .menu-bar ul li:hover .sub-menu1 ul li {
 	padding:10px;	
 	border-bottom: 1px dotted #06BEE1;
+	margin-left:-40px;
 }
 
 .menu-bar ul li:hover .sub-menu1 ul li:last-child {
@@ -118,8 +120,8 @@ body {
 	display:block;
 	background:#1768AC;
 	min-width:53%;
-	margin-top:-29px;
-	margin-left:50%;
+	margin-top:-34px;
+	margin-left:97%;
 }
 
 .fa-angle-down{

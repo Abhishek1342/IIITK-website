@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding:0;
+  box-sizing:border-box;
   font-family: 'Baloo Chettan 2', cursive;
 }
 
@@ -49,83 +50,85 @@ body {
 
 /* Menubar css startig here*/
 
-.menubar {
-  width:100%;
-  padding:0 14%;
-  margin:10px auto auto auto;
-  text-align: center;
-  overflow: hidden;
-  background-color: #03256C;
+.menu-bar {
+	height:45px;
+	width:100%;
+	background:#03256C;
+	text-align:center;
 }
 
-.menubar a {
-  float: left;
-  font-size: 90%;
-  color: white;
-  text-align: center;
-  padding: 100px;
-  text-decoration: none;
+.menu-bar ul {
+	display:inline-flex;
+	list-style:none;
+	color:white;
+	margin-left:-40px;
 }
 
-.menubar-content {
-  float: left;
-  overflow: hidden;
+.menu-bar ul li {
+	padding:10px;
 }
 
-.menubar-content a  {
 
-  font-size: 90%;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 12px 15px;
-  border-right:1px solid #06bee1;
-  margin: 0;
+
+.menu-bar ul li a {
+	color:white;
+	text-decoration:none;
 }
 
-.menubar a:hover, .menubar-content:hover  {
-  /*background-color: #06bee1;*/
-  background-color: #06bee1;
-  transition: 0.5s ease;
+.menu-bar ul li a:hover {
+	color:#06BEE1;
+	text-decoration:underline;
+	
 }
 
-.menubar-sub-content {
-  display: none;
-  position: absolute;
-  top:87px;
-  background-color: #03256C;
-  min-width: 130px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.sub-menu1 {
+	display:none;
 }
 
-.menubar-sub-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  border-right:none;
-  border-bottom:1px solid #06bee1;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+.menu-bar ul li:hover .sub-menu1 {
+	display:block;
+	position:absolute;
+	text-align:left;
+	min-width:9%;
+	background:#03256C;
+	margin-top:10px;
+	margin-left:-10px;
 }
 
-.menubar-sub-content a:hover {
-  background-color: #06bee1;
+.menu-bar ul li:hover .sub-menu1 ul  {
+	display:block;
 }
 
-.menubar-content:hover .menubar-sub-content {
-  display: block;
+.menu-bar ul li:hover .sub-menu1 ul li {
+	padding:10px;	
+	/*margin-left:-28px; */
 }
 
-.no-border {
-  border:none !important ;
+
+
+.menu-bar ul li:hover .sub-menu1 ul li a:hover {
+	color:#06BEE1;
 }
 
-.fa-angle-down {
-  position:relative;
-  top:2px;
+.sub-menu1a {
+	display:none;
 }
+
+.sub-menu1 li:hover .sub-menu1a {
+	position:absolute;
+	display:block;
+	background:#03256C;
+	min-width:53%;
+	margin-top:-34px;
+	margin-left:96%;
+}
+
+.fa-angle-down{
+	position:relative;
+	top:1px;
+	margin-left:2px;
+}
+
 
 /*Menu bar Ending*/
 

@@ -6,8 +6,6 @@ body {
   font-family: 'Baloo Chettan 2', cursive;
 }
 
-
-}
 .top-links{
   position: relative;
   top:0;
@@ -77,8 +75,7 @@ body {
 
 .menu-bar ul li a:hover {
 	color:#06BEE1;
-	text-decoration:underline;
-	
+
 }
 
 .sub-menu1 {
@@ -100,7 +97,7 @@ body {
 }
 
 .menu-bar ul li:hover .sub-menu1 ul li {
-	padding:10px;	
+	padding:10px;
 	/*margin-left:-28px; */
 }
 

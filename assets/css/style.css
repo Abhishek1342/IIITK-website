@@ -5,6 +5,9 @@ body {
   box-sizing: border-box;
   font-family: 'Baloo Chettan 2', cursive;
 }
+*{
+  cursor: pointer;
+}
 
 .top-links {
   position: relative;
@@ -45,15 +48,30 @@ body {
   padding: 0 0.5%;
   float: right;
 }
-
-.top-heading {
-  color: #2541B2;
+.clg_img {
+ opacity: 0.9;
+ filter: brightness(1.2);
+}
+.logo_img {
+  /* background-color: #03256C; */
+  padding: 1%;
+  text-align: center;
+  position: relative;
+  margin-top: -30.5%;
+  
 }
 
+.top-heading {
+  color: #e2fd00;
+  position: absolute;
+  top: 11%;
+  text-align: center;
+}
 .heading {
   text-align: center;
   padding: 1% 3.5%;
 }
+
 
 .heading h1 {
   font-weight: 900;
@@ -74,31 +92,35 @@ body {
   text-align: center;
 }
 
-  @media screen and (max-width:770px) {
-    .iiit {
-      display: none;
-    }
-
-    .container-logo {
-      text-align: center;
-      padding: 0 0 2% 0;
-    }
-
-    .logo {
-      width: 40%;
-    }
-
-    .heading h1 {
-      font-size: 2rem;
-      font-weight: 600;
-    }
+@media screen and (max-width:770px) {
+  .iiit {
+    display: none;
   }
+  
+  .container-logo {
+    text-align: center;
+    padding: 0 0 2% 0;
+  }
+  
+  .logo {
+    width: 40%;
+  }
+  
+  .heading h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
 
-  /* Menubar css startig here*/
+/* Menubar css startig here*/
   .menu-bar {
+   position: relative;
+    top: -1cm;
     height: 45px;
     width: 100%;
-    background: #2541B2;
+    background: #03256C;
+    text-align: center;
+    padding: 0% 3.5%;
     text-align: center;
     box-shadow: 0 10px 40px -10px rgb(0, 0, 0, 0.18);
   }

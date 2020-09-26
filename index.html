@@ -25,6 +25,10 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+  <!--aos Library starting-->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <!--aos Library Ending-->
+
   <!--bootstarp linkings End-->
 
   <!--Custom css linkings-->
@@ -279,10 +283,9 @@
 
 
   <!-- Main content section Starting-->
-  <main>
+  <main data-aos="fade-up">
 
-
-    <div class="main-content">
+    <div class="main-content" >
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lacus maximus, gravida ligula scelerisque, condimentum felis. Aenean at orci massa. Aliquam accumsan eget mi ut tincidunt. Donec quis ultricies sapien, a interdum
@@ -317,7 +320,7 @@
 
   <!-- Main content section Ending-->
 
-  <footer>
+  <footer data-aos="fade-up">
 
     <div class="footer-container" id="footer-section">
       <div class="colour">
@@ -368,7 +371,15 @@
     </div>
 
   </footer>
-
+  <!--aos lib js star-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!--aos lib js end-->
+  <script>
+    AOS.init({
+      offset: 350,
+      duration: 1000
+    });
+  </script>
   <script src="assets/js/main.js"></script>
 </body>
 

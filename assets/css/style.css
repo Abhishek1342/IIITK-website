@@ -215,6 +215,7 @@ footer {
 .footer-container p {
   font-size: 1rem;
   color: #FFFFFF;
+  font-weight: 600;
 }
 
 .footer-container iframe {

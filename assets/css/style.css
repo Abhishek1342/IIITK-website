@@ -109,18 +109,17 @@ body {
   text-align: center;
   font-weight: 900;
   z-index: 2;
-  height: 92vh;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
 }
 
 .heading {
   text-align: center;
-  padding: 5% 3% 6% 3%;
+  padding: 3% 3% 3% 3%;
 }
 
-
-.heading h1 , .iiit{
+.heading h1, .iiit {
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 3rem;
   background: -webkit-radial-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -144,10 +143,6 @@ body {
 }
 
 @media screen and (max-width:770px) {
-  .iiit {
-    display: none;
-  }
-
   .container-logo {
     text-align: center;
     padding: 0 0 2% 0;
@@ -157,19 +152,15 @@ body {
     width: 30%;
   }
 
-  .top-heading {
-    height: 70vh;
-  }
-
-  .heading h1 {
-    font-size: 2rem;
+  .heading h1, .iiit h2 {
+    font-size: 1.5rem;
     font-weight: 600;
-  }
-  .heading {
-    padding: 4% 3% 4% 3%;
+    padding: 3% 5%;
   }
 
-  .footer-container{
+  .heading, .iiit {}
+
+  .footer-container {
     height: 34rem
   }
 }
@@ -181,8 +172,7 @@ main {
   text-align: justify;
 }
 
-
-.main-content{
+.main-content {
   padding: 2% 3%;
 }
 
@@ -227,20 +217,20 @@ footer {
   margin: auto;
   width: 100%;
   background-color: #1768AC;
-  padding: 2% 10% 2% 10%;
+  padding: 2% 12%;
 }
 
 .down-links a {
   color: #FFFFFF;
   text-decoration: none;
-  padding: 0 1.5%;
+  padding: 0 3%;
   display: inline;
   font-weight: 600;
 }
 
-.down-links a:hover{
-    color: #ffc837;
-    transition: 0.3s ease;
+.down-links a:hover {
+  color: #ffc837;
+  transition: 0.3s ease;
 }
 
 .social-links {
@@ -264,7 +254,7 @@ footer {
   z-index: 2;
   color: #FFFFFF;
   background-color: #03256C;
-  padding: 1% 2% ;
+  padding: 1% 2%;
   overflow: hidden;
-  height:5rem;
+  height: 5rem;
 }

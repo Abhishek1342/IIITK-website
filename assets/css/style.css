@@ -206,10 +206,10 @@ input {
     nav ul {
         margin-right: 0px;
         float: left;
-        padding-left: 10px;
+        padding-left: 2px;
     }
     nav .logogsk {
-        padding-left: 10px;
+        padding-left: 2px;
         width: 100%;
     }
     .show+a,
@@ -219,7 +219,7 @@ input {
     nav ul li,
     nav ul ul li {
         display: block;
-        width: 100%;
+        width: 90%;
     }
     nav ul li a:hover {
         box-shadow: none;
@@ -259,7 +259,7 @@ input {
         display: none;
         opacity: 1;
         visibility: visible;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .leftbit {
         padding-left: 10px;
@@ -284,7 +284,7 @@ input {
         color: white;
     }
     nav ul ul ul {
-        margin-left: -10px;
+        margin-left: -8px;
     }
     /* nav ul ul ul a {
         margin-left: -40px;

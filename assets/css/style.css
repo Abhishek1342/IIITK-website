@@ -30,8 +30,9 @@ nav .logogsk {
 }
 
 .logogsk img {
-    margin-top: -10px;
-    margin-bottom: -6px;
+  margin-top: -10px;
+  margin-bottom: -6px;
+  margin-left: 20px;
 }
 
 nav ul {
@@ -328,19 +329,32 @@ input {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
 }
 
+.banner{
+  width:100%;
+  height:100%;
+  position: relative;
+  background-image: url('../../images/iiitk/head-background.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay{
+  width:100%;
+  height:100%;
+  background:rgb(0,0,0,0.5);
+}
+
 .heading {
-    text-align: center;
-    padding: 3% 3% 3% 3%;
+  text-align: center;
+  padding: 3% 3% 3% 3%;
+  position: relative;
 }
 
 .heading h1,
 .iiit {
-
-    font-weight: 900;
-    font-size: 3rem;
-    background: -webkit-radial-gradient(white, #38495a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 3rem;
+  color:#ffffff;
 }
 
 .lower-heading {
@@ -361,6 +375,21 @@ input {
 }
 
 @media screen and (max-width:770px) {
+  .container-logo {
+    text-align: center;
+    padding: 0 0 2% 0;
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  .heading h1,
+  .iiit h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 3% 5%;
+  }
 
     .container-logo {
         text-align: center;
@@ -401,23 +430,29 @@ main {
   text-align: center;
 }
 
-.content-heading::after {
+.content-heading::after, .footer-container h2::after {
   content: '';
   display: block;
-  margin: 2% auto;
+  margin: 1.75% auto;
   width: 7rem;
   height: 1.5px;
   background: #4b505e;
 }
+
+.footer-container h2::after{
+  background: #fff;
+}
+
+
 footer {
     text-align: center;
 }
 
 .footer-container {
-    position: relative;
-    width: 100%;
-    height: 35rem;
-    background-color: #2541B2;
+  position: relative;
+  width: 100%;
+  height: 36rem;
+  background-color: #2541B2;
 }
 
 .colour {
@@ -429,10 +464,10 @@ footer {
 }
 
 .footer-container h2 {
-    font-size: 3rem;
-    color: #FFFFFF;
-    font-weight: 300;
-    padding: 1%;
+  font-size: 3rem;
+  color: #FFFFFF;
+  font-weight: 300;
+  padding:1% 1% 0 1% ;
 }
 
 .footer-container p {
@@ -490,4 +525,17 @@ footer {
     padding: 1% 2%;
     overflow: hidden;
     height: 5rem;
+}
+
+
+@media screen and (max-width:770px){
+
+  .content-heading , .footer-container h2{
+    font-size: 2rem;
+  }
+
+  .content-heading::after {
+    width: 5rem;
+  }
+
 }

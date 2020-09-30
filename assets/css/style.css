@@ -108,6 +108,8 @@ nav ul ul li {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     border-left: 4px solid #03256c;
     background: white;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
 
 nav ul ul li:last-child {

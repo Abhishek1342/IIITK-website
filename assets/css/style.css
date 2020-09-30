@@ -206,9 +206,10 @@ input {
     nav ul {
         margin-right: 0px;
         float: left;
+        padding-left:10px
     }
     nav .logogsk {
-        padding-left: 30px;
+        padding-left: 10px;
         width: 100%;
     }
     .show+a,

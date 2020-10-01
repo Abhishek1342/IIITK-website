@@ -64,15 +64,13 @@ div div p {
 }
 
 @media all and (max-width: 630px) {
-    outline: {
-        padding: 0;
-    }
+  
     .border {
         text-align: center;
         border: 1px solid black;
         width: 270px;
         height: 450px;
         position: relative;
-        margin-left: 16px;
+      
     }
 }

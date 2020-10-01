@@ -343,6 +343,10 @@ input {
   height:100%;
   background:rgb(0,0,0,0.5);
 }
+.row{
+  margin:0;
+  width:100%;
+}
 
 .heading {
   text-align: center;

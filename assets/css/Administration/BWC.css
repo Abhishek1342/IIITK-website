@@ -53,3 +53,14 @@ div div p {
     text-align: left;
     padding-left: 10px;
 }
+
+@media all and (max-width: 630px) {
+    .border {
+        text-align: center;
+        border: 1px solid black;
+        width: 270px;
+        height: 450px;
+        position: relative;
+        margin-left: 40px;
+    }
+}

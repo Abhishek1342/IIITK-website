@@ -1,8 +1,9 @@
-
 .outline {
     border: 1px solid black;
     width: auto;
     height: auto;
+    /* padding-left: 8%;
+    padding-right: 8%; */
     padding: 15px 8%;
 }
 
@@ -49,7 +50,14 @@ div div p {
     text-align: center;
     font-weight: bold;
     font-size: 110%;
+    padding-left: 10px;
 }
+
+.topic p {
+    text-align: left;
+    padding-left: 10px;
+}
+
 @media all and (max-width: 630px) {
     .border {
         text-align: center;
@@ -57,6 +65,5 @@ div div p {
         width: 270px;
         height: 450px;
         position: relative;
-/*         margin-left: 32px; */
     }
 }

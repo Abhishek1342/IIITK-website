@@ -3,6 +3,7 @@
     border: 1px solid black;
     width: auto;
     height: auto;
+    padding: 15px 8%;
 }
 
 .border {
@@ -62,6 +63,6 @@ div div p {
         width: 270px;
         height: 450px;
         position: relative;
-        margin-left: 32px;
+/*         margin-left: 32px; */
     }
 }

@@ -523,7 +523,7 @@ footer {
 
 .credits {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     color: #FFFFFF;
     background-color: #03256C;
     padding: 1% 2%;

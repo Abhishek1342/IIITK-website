@@ -408,11 +408,7 @@ input {
         font-weight: 600;
         padding: 3% 5%;
     }
-    .heading,
-    .iiit {}
-    .footer-container {
-        height: 34rem
-    }
+
 }
 
 main {
@@ -533,6 +529,10 @@ footer {
 
 
 @media screen and (max-width:770px){
+
+  .footer-container {
+      height: 33rem
+  }
 
   .content-heading , .footer-container h2{
     font-size: 2rem;

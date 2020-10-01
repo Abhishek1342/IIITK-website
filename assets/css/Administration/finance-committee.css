@@ -48,3 +48,13 @@ div div p {
     font-weight: bold;
     font-size: 110%;
 }
+@media all and (max-width: 630px) {
+    .border {
+        text-align: center;
+        border: 1px solid black;
+        width: 270px;
+        height: 450px;
+        position: relative;
+        margin-left: 35px;
+    }
+}

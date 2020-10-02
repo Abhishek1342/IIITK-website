@@ -1,5 +1,5 @@
 .Container{
-    border: 1px solid lightblue;
+    /* border: 1px solid lightblue; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -20,21 +20,22 @@
 .Container .item p{
     color: royalblue;
     font-weight: bold;
+    /* display: inline; */
 }
 .Container .item b{
     color: royalblue;
     font-weight: bold;
 }
   p:hover{
-    box-shadow: 2px 2px 2px 2px royalblue;
+    box-shadow: 1px 1px 20px royalblue;
     cursor: pointer;
 }
   b:hover{
-    box-shadow: 2px 2px 2px 2px rgb(136, 145, 172);
+    box-shadow: 2px 2px 10px rgb(136, 145, 172);
     cursor: pointer;
 }
 #item1 :hover{
-    box-shadow: 10px 10px 10px 10px rgb(217, 228, 225);
+    box-shadow: 2px 2px 40px rgb(58, 58, 58);
     border: none;
     cursor: pointer;
 }

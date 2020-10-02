@@ -1,10 +1,12 @@
 .Container{
-    /* border: 1px solid lightblue; */
+    border: 1px solid rgb(179, 196, 202);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    
 }
 #item1{
     align-self: center;
@@ -13,29 +15,24 @@
     align-self: center;
 }
 .item img{
-    border: 1px solid rgb(167, 245, 219);
+    border: 2px solid rgb(245, 246, 246);
     border-radius: 4cm;
-
+    margin-bottom: 20px;
 }
-.Container .item p{
-    color: royalblue;
-    font-weight: bold;
-    /* display: inline; */
-}
-.Container .item b{
+.Container .item .para1{
     color: royalblue;
     font-weight: bold;
 }
-  p:hover{
-    box-shadow: 1px 1px 20px royalblue;
-    cursor: pointer;
+.Container .item .para2{
+    text-align: justify;
 }
-  b:hover{
-    box-shadow: 2px 2px 10px rgb(136, 145, 172);
-    cursor: pointer;
+.Container .item .para2 .a{
+    color: royalblue;
+    font-weight: bold;
 }
 #item1 :hover{
-    box-shadow: 2px 2px 40px rgb(58, 58, 58);
+    box-shadow: -2px 2px 30px 7px rgba(173,171,173,0.62);
     border: none;
     cursor: pointer;
+    transition-duration: 6s ease;
 }

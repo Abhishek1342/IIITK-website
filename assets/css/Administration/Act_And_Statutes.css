@@ -1,0 +1,45 @@
+main{
+	margin:3%;
+}
+.main-content{
+	margin-top:3%;
+	float:left;
+	display:inline-block;
+	border:5px solid black;
+	margin-right:4%;
+	width:70%;
+	padding: 2%;
+	box-shadow:
+  0 28.2px 37.8px rgba(0, 0, 0, 0.32),
+  0 36.2px 63.5px rgba(0, 0, 0, 0.182),
+  0 100px 80px rgba(0, 0, 0, 0.116)
+;
+
+}
+aside{
+	float:left;
+	margin-top:3%;
+	height:150px;
+	display:inline-block;
+	border:5px solid black;
+	padding:2%; 
+	box-shadow:
+  0 28.2px 37.8px rgba(0, 0, 0, 0.32),
+  0 36.2px 63.5px rgba(0, 0, 0, 0.182),
+  0 100px 80px rgba(0, 0, 0, 0.116)
+}
+main aside h3{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%);	color:#ffffff;
+}
+footer{
+	clear:both;
+	margin-top: 20%;
+}
+.main-content a{
+	color:black;
+	font-weight: bolder;
+}
+.main-content a:hover{
+	color:#007bff;
+}

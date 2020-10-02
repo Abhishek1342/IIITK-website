@@ -1,0 +1,40 @@
+.Container{
+    border: 1px solid lightblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+#item1{
+    align-self: center;
+}
+#item2{
+    align-self: center;
+}
+.item img{
+    border: 1px solid rgb(167, 245, 219);
+    border-radius: 4cm;
+
+}
+.Container .item p{
+    color: royalblue;
+    font-weight: bold;
+}
+.Container .item b{
+    color: royalblue;
+    font-weight: bold;
+}
+  p:hover{
+    box-shadow: 2px 2px 2px 2px royalblue;
+    cursor: pointer;
+}
+  b:hover{
+    box-shadow: 2px 2px 2px 2px rgb(136, 145, 172);
+    cursor: pointer;
+}
+#item1 :hover{
+    box-shadow: 10px 10px 10px 10px rgb(217, 228, 225);
+    border: none;
+    cursor: pointer;
+}

@@ -6,6 +6,11 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
     
 }
 #item1{

@@ -49,7 +49,16 @@
 
 </head>
 
-<body>
+<body onload="preLoader()">
+
+  <div id="preloader">
+    <div class="preloader-container">
+      <img src="images/preloader/preloader.gif" class="preloader-gif" />
+      <p>
+        INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, DESIGN AND MANUFACTURING, KURNOOL
+      </p>
+    </div>
+  </div>
 
   <!--Nav Bar Starting-->
 
@@ -353,13 +362,15 @@
   </script>
   <!-- scroll to top-->
   <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-<script>addBackToTop({
-  scrollDuration: 300,
-  diameter: 45,
-  backgroundColor: '#2541B2',
-  textColor: '#fff',
-  zIndex: 2
-})</script>
+  <script>
+    addBackToTop({
+      scrollDuration: 300,
+      diameter: 45,
+      backgroundColor: '#2541B2',
+      textColor: '#fff',
+      zIndex: 2
+    })
+  </script>
   <!-- scroll to top End-->
   <script src="assets/js/main.js"></script>
 </body>

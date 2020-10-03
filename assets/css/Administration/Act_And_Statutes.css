@@ -105,3 +105,12 @@ main aside h3 {
 .links:hover:after {
     width: 100%;
 }
+
+@media all and (max-width: 630px) {
+    .main-content {
+        width: 75%;
+    }
+    aside {
+        width: 75%;
+    }
+}

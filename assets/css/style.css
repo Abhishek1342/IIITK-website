@@ -5,8 +5,14 @@ body {
   box-sizing: border-box;
   font-family: 'Baloo Chettan 2', cursive;
 }
-@font-face {font-family: "Algerian"; src: url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.eot"); src: url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.woff") format("woff"), url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.svg#Algerian") format("svg"); }
-
+@font-face {font-family: "Algerian"; 
+  src: url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.eot"); 
+  src: url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.svg#Algerian") format("svg"); 
+}
 
 #preloader {
   position: fixed;

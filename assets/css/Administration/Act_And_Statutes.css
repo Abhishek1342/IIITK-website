@@ -107,10 +107,16 @@ main aside h3 {
 }
 
 @media all and (max-width: 800px) {
-    .main-content {
+    .border {
         width: 90%;
+        margin-left: 5%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .main-content {
+        width: 80%;
     }
     aside {
-        width: 90%;
+        width: 80%;
     }
 }

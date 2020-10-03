@@ -443,12 +443,6 @@ input {
 }
 
 @media screen and (max-width:770px) {
-  .heading h1{
-  font-weight: 900;
-  font-size: 3rem;
-  color: #ffffff;
-  font-family:algerian, san-serif;
-  }
   .container-logo {
     text-align: center;
     padding: 0 0 2% 0;

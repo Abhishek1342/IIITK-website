@@ -106,7 +106,7 @@ main aside h3 {
     width: 100%;
 }
 
-@media all and (max-width: 630px) {
+@media all and (max-width: 800px) {
     .main-content {
         width: 90%;
     }

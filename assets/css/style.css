@@ -35,6 +35,8 @@ body {
   padding: 0 20%;
   font-size: 1.3rem;
   font-weight: 100;
+  font-weight:bolder;
+  font-family:algerian, san-serif;
 }
 
 /* Menubar css startig here*/

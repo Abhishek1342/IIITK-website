@@ -108,9 +108,9 @@ main aside h3 {
 
 @media all and (max-width: 630px) {
     .main-content {
-        width: 75%;
+        width: 90%;
     }
     aside {
-        width: 75%;
+        width: 90%;
     }
 }

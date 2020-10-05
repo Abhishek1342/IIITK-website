@@ -5,6 +5,7 @@
     /* padding-left: 8%;
     padding-right: 8%; */
     padding: 15px 8%;
+    border-radius: 10px;
 }
 
 .border {
@@ -64,12 +65,13 @@ div div p {
 }
 
 @media all and (max-width: 630px) {
+  
     .border {
         text-align: center;
         border: 1px solid black;
         width: 270px;
         height: 450px;
         position: relative;
-        margin-left: -10px;
+      
     }
 }

@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Baloo Chettan 2', cursive;
+  background-image: url('../../images/iiitk/texture/dust-texture.png');
 }
 @font-face {font-family: "Algerian";
   src: url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.eot");

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo-top-bar {
+    float: left;
+}
+
+.logo-top-bar img {
+    width: 100px;
+    height: 100px;
+}
+
+#college-eng {
+    font-family: 'Francois One', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#address-eng {
+    font-size: 21px;
+}

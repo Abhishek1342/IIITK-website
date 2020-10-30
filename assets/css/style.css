@@ -3,16 +3,22 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Baloo Chettan 2', cursive;
-  background-image: url('../../images/iiitk/texture/geometry.png');
+  font-family: "Baloo Chettan 2", cursive;
+  background-image: url("../../images/iiitk/texture/geometry.png");
 }
-@font-face {font-family: "Algerian";
+@font-face {
+  font-family: "Algerian";
   src: url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.eot");
-  src: url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.eot?#iefix") format("embedded-opentype"),
-  url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.woff2") format("woff2"),
-  url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.woff") format("woff"),
-  url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.ttf") format("truetype"),
-  url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.svg#Algerian") format("svg");
+  src: url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/6f654b0b7ea8cedb893c861b67ad763a.svg#Algerian")
+      format("svg");
 }
 
 #preloader {
@@ -44,8 +50,8 @@ body {
   padding: 0 20%;
   font-size: 1.3rem;
   font-weight: 100;
-  font-weight:bolder;
-  font-family:algerian, san-serif;
+  font-weight: bolder;
+  font-family: algerian, san-serif;
 }
 
 /* Menubar css startig here*/
@@ -54,7 +60,7 @@ nav {
 }
 
 nav:after {
-  content: '';
+  content: "";
   clear: both;
   display: table;
 }
@@ -133,7 +139,7 @@ nav ul ul ul {
   border-top: none;
 }
 
-nav ul li:hover>ul {
+nav ul li:hover > ul {
   top: 70px;
   opacity: 1;
   visibility: visible;
@@ -255,7 +261,7 @@ input {
   }
 }
 
-@media all and (max-width:1200px) {
+@media all and (max-width: 1200px) {
   nav ul {
     margin-right: 0px;
     float: left;
@@ -267,7 +273,7 @@ input {
     width: 100%;
   }
 
-  .show+a,
+  .show + a,
   ul {
     display: none;
   }
@@ -363,7 +369,7 @@ input {
         margin-left: -40px;
     } */
   nav ul ul ul li a {
-    padding left: 0;
+    padding-left: 0;
   }
 
   nav ul ul ul li {
@@ -372,7 +378,7 @@ input {
     text-align: center;
   }
 
-  [id^=btn]:checked+ul {
+  [id^="btn"]:checked + ul {
     display: block;
   }
 
@@ -381,7 +387,7 @@ input {
   }
 
   span.cancel:before {
-    content: '\f00d';
+    content: "\f00d";
   }
 }
 
@@ -406,7 +412,7 @@ input {
   width: 100%;
   height: 100%;
   position: relative;
-  background-image: url('../../images/iiitk/head-background.webp');
+  background-image: url("../../images/iiitk/head-background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -454,7 +460,7 @@ input {
   text-align: justify;
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width: 770px) {
   .container-logo {
     text-align: center;
     padding: 0 0 2% 0;
@@ -507,8 +513,9 @@ main {
   text-align: center;
 }
 
-.content-heading::after, .footer-container h2::after {
-  content: '';
+.content-heading::after,
+.footer-container h2::after {
+  content: "";
   display: block;
   margin: 1.75% auto;
   width: 7rem;
@@ -528,27 +535,27 @@ footer {
   position: relative;
   width: 100%;
   height: 36rem;
-  background-color: #2541B2;
+  background-color: #2541b2;
 }
 
 .colour {
   position: relative;
   width: 100%;
   height: 80%;
-  background-color: #06BEE1;
+  background-color: #06bee1;
   border-radius: 0 0 0 100%/ 0 0 50% 100%;
 }
 
 .footer-container h2 {
   font-size: 3rem;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 300;
   padding: 1% 1% 0 1%;
 }
 
 .footer-container p {
   font-size: 1rem;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -560,12 +567,12 @@ footer {
   position: relative;
   margin: auto;
   width: 100%;
-  background-color: #1768AC;
+  background-color: #1768ac;
   padding: 2% 12%;
 }
 
 .down-links a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   padding: 0 3%;
   display: inline;
@@ -596,19 +603,20 @@ footer {
 .credits {
   position: relative;
   z-index: 1;
-  color: #FFFFFF;
-  background-color: #03256C;
+  color: #ffffff;
+  background-color: #03256c;
   padding: 1% 2%;
   overflow: hidden;
   height: 5rem;
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width: 770px) {
   .footer-container {
-    height: 33rem
+    height: 33rem;
   }
 
-  .content-heading, .footer-container h2 {
+  .content-heading,
+  .footer-container h2 {
     font-size: 2rem;
   }
 

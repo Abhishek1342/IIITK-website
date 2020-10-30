@@ -1,0 +1,71 @@
+.aim-cards {
+  position: relative;
+  display: inline-flex;
+  padding: 3% 2%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.vectorArt {
+  position: relative;
+  display: inline-block;
+  width: 45%;
+  padding: 0 3%;
+}
+
+.vectorArt img {
+  width: 100%;
+}
+
+.aim-desc {
+  display: inline-block;
+  position: relative;
+  width: 45%;
+  text-align: left;
+}
+
+.aim-desc i {
+  color: #2541b2;
+  font-size: 2.5rem;
+  padding: 0 0 3% 0;
+}
+.m-view {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .d-view {
+    display: none;
+  }
+
+  .m-view {
+    display: block;
+  }
+
+  .aim-cards {
+    display: block;
+  }
+
+  .vectorArt {
+    width: 100%;
+    display: block;
+  }
+  .aim-desc {
+    width: 100%;
+    display: block;
+  }
+  .content-heading {
+    padding: 10% 2% 2%;
+    text-align: left;
+  }
+
+  .content-heading::after {
+    margin: 1.75% 1%;
+    width: 5.5rem;
+    height: 1.5px;
+  }
+
+  .aim-desc i {
+    font-size: 1.8rem;
+  }
+}

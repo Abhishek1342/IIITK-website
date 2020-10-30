@@ -4,6 +4,7 @@
   padding: 3% 2%;
   width: 100%;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 
 .vectorArt {

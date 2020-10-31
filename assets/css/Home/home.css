@@ -70,3 +70,68 @@
     font-size: 1.8rem;
   }
 }
+
+.info-section {
+  padding: 3% 2%;
+  position: relative;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.info-card {
+  width: 30%;
+  display: inline-flex;
+  height: 35rem;
+  border-radius: 15px;
+  border: 1px solid rgb(112, 112, 112, 0.53);
+  background-color: #ffffff;
+}
+
+.info-head {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #03256c;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+.info-head h3 {
+  color: #ffffff;
+  padding-top: 0.8rem;
+}
+
+.info-foot {
+  position: absolute;
+  bottom: 0;
+  padding: 8px;
+  width: 100%;
+  height: 3.8rem;
+  border-top: 1px solid rgb(112, 112, 112, 0.53);
+}
+
+@media screen and (max-width: 1160px) {
+  .info-card {
+    display: block;
+    width: 100%;
+    margin: 5% 0;
+  }
+  .info-section {
+    display: block;
+    justify-content: left;
+  }
+}
+
+.info-list-card {
+  position: absolute;
+  top: 11.5%;
+  width: 100%;
+}
+
+.info-list {
+  list-style: none;
+  text-decoration: none;
+  padding: 5%;
+  margin: 0;
+}

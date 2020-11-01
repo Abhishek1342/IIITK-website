@@ -72,30 +72,29 @@
 }
 
 .info-section {
-  padding: 3% 2%;
-  position: relative;
-  width: 100%;
+  padding: 2%;
   display: inline-flex;
-  justify-content: space-between;
+  width: 100%;
 }
 
 .info-card {
   width: 30%;
-  display: inline-flex;
-  height: 35rem;
   border-radius: 15px;
+  display: inline-block;
   border: 1px solid rgb(112, 112, 112, 0.53);
   background-color: #ffffff;
+  margin: 1.5%;
+  position: relative;
 }
 
 .info-head {
-  position: absolute;
-  top: 0;
+  position: relative;
   width: 100%;
   height: 4rem;
   background-color: #03256c;
   border-radius: 15px 15px 0 0;
   text-align: center;
+  display: block;
 }
 .info-head h3 {
   color: #ffffff;
@@ -103,7 +102,7 @@
 }
 
 .info-foot {
-  position: absolute;
+  position: relative;
   bottom: 0;
   padding: 8px;
   width: 100%;
@@ -124,14 +123,25 @@
 }
 
 .info-list-card {
-  position: absolute;
-  top: 11.5%;
   width: 100%;
+  display: block;
+  position: relative;
 }
 
 .info-list {
   list-style: none;
-  text-decoration: none;
-  padding: 5%;
+  padding: 2% 5%;
   margin: 0;
+  display: block;
+  border-bottom: 1px solid rgb(112, 112, 112, 0.53);
+}
+
+.info-list li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.info-list em {
+  color: rgb(112, 112, 112, 0.73);
+  font-size: 0.8rem;
 }

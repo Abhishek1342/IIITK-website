@@ -1,0 +1,41 @@
+.main-content {
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    width: 80%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 7%;
+    box-shadow: 0 2.3px 4.7px rgba(0, 0, 0, 0.037), 0 6.4px 11px rgba(0, 0, 0, 0.062), 0 15.4px 22.4px rgba(0, 0, 0, 0.081), 0 51px 112px rgba(0, 0, 0, 0.11);
+}
+main h3 {
+    background: rgb(72 23 167);
+    /*background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 33%, rgba(0, 212, 255, 1) 100%);*/
+    color: #ffffff;
+    padding-left: 10px;
+    margin-bottom: 3%;
+}
+table{
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.roleTable th{
+	color: #ffffff;
+	background-color: #ea6153;
+	width: 100px;
+    height: 60px;
+}
+.roleTable tr:nth-of-type(odd){
+    background: #e9e9e9;
+}
+@media all and (max-width: 800px) {
+    .main-content {
+        width: 80%;
+    }
+}

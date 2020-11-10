@@ -1,0 +1,26 @@
+.custom-heading {
+  font-size: 2rem;
+  text-align: left;
+  padding-left: 0;
+}
+
+.custom-heading::after {
+  content: "";
+  width: 0;
+  margin: 1.75% 0;
+  height: 1.5px;
+  background: #4b505e;
+}
+.small-card {
+  text-align: center;
+  padding: 1%;
+}
+.lab-v {
+  font-size: 2rem;
+  color: #0069d9;
+  padding: 10% 0;
+  transition: all 0.3s ease;
+}
+.lab-v:hover {
+  color: #2a91ff;
+}

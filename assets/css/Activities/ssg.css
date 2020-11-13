@@ -1,0 +1,83 @@
+.box {
+    display: flex;
+    justify-content: space-evenly;
+	align-content: center;
+	align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    width: fit-content;
+}
+.headshot {
+    flex-shrink: 0;
+    margin: 20px;
+	height: calc(150px + 6vw);
+	width: calc(150px + 6vw);
+	border: calc(8px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 30%;
+	background-image: var(--img-url), linear-gradient(#f9f047, #0fd850);
+}
+
+.headshot-1 {
+    --img-url: url(http://iiitk.ac.in/images/full_size/tree9-988ad.jpg);
+	
+}
+.headshot-2 {
+    --img-url: url(http://iiitk.ac.in/images/full_size/tree1-8ecfa.jpg);
+}
+.headshot-3 {
+    --img-url: url(http://iiitk.ac.in/images/full_size/tree10-cf77d.jpg);
+	
+}
+.headshot-4 {
+    --img-url: url(http://iiitk.ac.in/images/full_size/tree8-4cabc.jpg);
+}
+	
+ 
+.headshot-5 {
+    --img-url: url(http://iiitk.ac.in/images/full_size/tree2-e3f4a.jpg);
+}
+.headshot-6 {
+    --img-url: url(http://iiitk.ac.in/images/full_size/tree5-ceab8.jpg);
+	
+}
+.headshot-7 {
+    --img-url: url(http://iiitk.ac.in/images/full_size/tree7-bd581.jpg);
+    
+}
+.headshot-8 {
+    --img-url: url(http://iiitk.ac.in/images/full_size/tree3-b98c2.jpg);
+    
+}
+.main-content{
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.main-content2{
+    margin: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.main-content h3{
+    font-size: 30px;
+    text-decoration-color: seagreen;
+    text-decoration: underline;
+}
+.main-content2 h3{
+    font-size: 30px;
+    text-decoration-color: seagreen;
+    text-decoration: underline;
+}
+.main-content2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
